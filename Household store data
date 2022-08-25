@@ -15,7 +15,11 @@ INSERT INTO store VALUES(13,"knive",20,1,1);
 INSERT INTO store VALUES(14,"slow cooker",4,3,20);
 INSERT INTO store VALUES(15,"grinder",2,1,23);
 select * from store;
+
+--display the database ordered by price.
 select * from store order by price;
+
+--what is the avg price of items in the bulk section? 
 SELECT AVG(price) "avg bulk item price"
 FROM store;
 
